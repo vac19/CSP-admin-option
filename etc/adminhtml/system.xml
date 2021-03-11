@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Config/etc/system_file.xsd">
+      <system>
+         <tab id="salecto" translate="label" sortOrder="301">
+            <label>Salecto</label>
+         </tab>
+         <section id="salecto_csp" translate="label" type="text" sortOrder="47" showInDefault="1" showInWebsite="1" showInStore="1">
+            <label>CSP Settings</label>
+            <tab>salecto</tab>
+            <resource>Salecto_Csp::config</resource>
+            
+            <group id="styleSsrc" translate="label" type="text" sortOrder="2" showInDefault="1" showInWebsite="1" showInStore="1">
+               <label>Add style-src</label>
+               <field id="role" translate="label" type="text" sortOrder="4" showInDefault="1" showInWebsite="1" showInStore="1">
+                  <label>Url</label>
+                  <comment>Set style-src url</comment>
+                  <validate>required-entry no-whitespace</validate>
+               </field>
+            </group>
+         </section>
+      </system>
+</config>
