@@ -13,7 +13,8 @@ Adds one option in admin configuration to add google font url for CSP settings.
 
 ## Preview will be added
 
-![timer-in-categoryPage](/readme-images/Timer-at-categoryPage.png "timer-in-categoryPage")
+![console-error](/readme-images/console-error.png "console error before module install")
+![admin-option](/readme-images/admin-option.png "set cdn url to white list")
 
 
 ## Settings
